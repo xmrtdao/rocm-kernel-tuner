@@ -1,0 +1,51 @@
+# dependencies
+node_modules/
+__pycache__/
+*.egg-info/
+.env
+.env.local
+
+# build outputs
+dist/
+build/
+*.zip
+*.tar.gz
+
+# os
+.ds_store
+thumbs.db
+
+# ide
+.vscode/
+.idea/
+*.swp
+
+# models / checkpoints (large files)
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.safetensors
+models/
+checkpoints/
+*.lora
+*.adapter
+
+# huggingface
+huggingface/
+.cache/
+
+# datasets
+data/*.jsonl
+data/*.bin
+data/*.arrow
+
+# logs
+*.log
+logs/
+
+# wandb
+wandb/
+
+# supabase
+.supabase/

@@ -1,0 +1,28 @@
+{
+  "name": "rocm-kernel-tuner",
+  "version": "1.0.0",
+  "description": "domain-specific code model fine-tuned for amd rocm gpu kernel optimization — amd developer hackathon",
+  "scripts": {
+    "dev": "python3 -m http.server 8080 --directory demo",
+    "build": "echo 'static deployment - no build step required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "ai",
+    "fine-tuning",
+    "rocm",
+    "amd",
+    "gpu",
+    "monero",
+    "randomx",
+    "qwen",
+    "lora",
+    "hackathon"
+  ],
+  "author": "xmrt dao",
+  "license": "mit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xmrtdao/rocm-kernel-tuner.git"
+  }
+}

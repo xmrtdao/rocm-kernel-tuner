@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "name": "rocm-kernel-tuner",
+  "builds": [
+    {
+      "src": "demo/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/demo/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/demo/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/**",
+      "headers": [
+        {
+          "key": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "key": "access-control-allow-methods",
+          "value": "get, post, options"
+        }
+      ]
+    }
+  ]
+}
