@@ -165,6 +165,9 @@ cd deploy/huggingface-space
 # Upload to https://huggingface.co/spaces/xmrtdao/rocm-kernel-tuner
 ```
 
+
+![Architecture Diagram](https://raw.githubusercontent.com/xmrtdao/rocm-kernel-tuner/main/architecture.svg)
+*Detailed system pipeline — view full resolution in browser*
 ### Vercel (Static docs)
 ```bash
 npm i -g vercel
