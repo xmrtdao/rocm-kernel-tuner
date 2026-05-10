@@ -1,5 +1,7 @@
 # ROCm-KernelTuner
 
+[![HF Space](https://img.shields.io/badge/HuggingFace-Space-blue)](https://huggingface.co/spaces/XMRTDAO/rocm-kernel-tuner)
+
 **Domain-Specific Code Model Fine-Tuned for AMD ROCm GPU Kernel Optimization**
 
 [![AMD Developer Hackathon](https://img.shields.io/badge/AMD-Hackathon%202026-ED1C24?logo=amd)](https://lablab.ai/ai-hackathons/amd-developer)
